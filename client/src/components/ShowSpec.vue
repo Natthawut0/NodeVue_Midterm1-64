@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1> Show Spec</h1>
-    <p>Product: {{spec.Product }} </p>
+    <p>Product: {{ spec.Product }} </p>
     <p>Aspect Ratio: {{spec.Aspect_Ratio }}</p>
     <p>Display_Resolution_Maximum: {{spec.Display_Resolution_Maximum}}</p>
     <p>Screen_Size: {{spec.Screen_Size}}</p>

@@ -16,8 +16,8 @@
     <p>Item_Weight: {{spec.Item_Weight}}</p>
     <p>Refresh_Rate: {{spec.Refresh_Rate}}</p>
     <p>Size: {{spec.Size}}</p>
-        <p><button v-on:click="navigateTo('/spec/'+ spce.id)">ดูข้อมูลผู้ใช้</button>
-        <button v-on:click="navigateTo('/spec/edit/'+ spce.id)">แก้ไขข้อมูล</button>
+        <p><button v-on:click="navigateTo('/spec/'+ spec.id)">ดูข้อมูลผู้ใช้</button>
+        <button v-on:click="navigateTo('/spec/edit/'+ spec.id)">แก้ไขข้อมูล</button>
         <button v-on:click="deleteUser(spec)">ลบข้อมูล</button></p>
 
         <hr>
