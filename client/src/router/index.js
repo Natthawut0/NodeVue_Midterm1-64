@@ -1,42 +1,35 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import HelloWorld from '@/components/HelloWorld'
+//import HelloWorld from '@/components/HelloWorld'
 
-import UserIndex from '@/components/Index'
-import UserCreate from '@/components/CreateUser'
-import UserEdit from '@/components/EditUser'
-import UserShow from '@/components/ShowUser'
-import Login from '@/components/Login'
-
+import SpecIndex from '@/components/Index'
+import SpecCreate from '@/components/CreateSpec'
+import SpecEdit from '@/components/EditSpec'
+import SpecShow from '@/components/ShowSpec'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/users',
-      name: 'users',
-      component: UserIndex
+      path: '/specs',
+      name: 'specs',
+      component: SpecIndex
     },
     {
-      path: '/user/create',
-      name: 'user-create',
-      component: UserCreate
+      path: '/spec/Create',
+      name: 'Spec-Create',
+      component: SpecCreate
     },
     {
-      path: '/user/edit/:userId',
-      name: 'user-edit',
-      component: UserEdit
+      path: '/spec/edit/:specId',
+      name: 'Spec-Edit',
+      component: SpecEdit
     },
     {
-      path: '/user/:userId',
-      name: 'user',
-      component: UserShow
-    },
-    {
-      path: '/login',
-      name: 'login',
-      component: Login
+      path: '/spec/:specId',
+      name: 'spec',
+      component: SpecShow
     }
   ]
 })

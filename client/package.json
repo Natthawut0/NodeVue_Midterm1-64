@@ -1,8 +1,8 @@
 {
   "name": "nv-webblog-client",
   "version": "1.0.0",
-  "description": "nodejs veujs webblog client",
-  "author": "nattapon kumyaito",
+  "description": "nodejs vuejs webblog client",
+  "author": "Natthawut Jaipanta",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -13,10 +13,7 @@
     "axios": "^0.21.1",
     "vue": "^2.5.2",
     "vue-resource": "^1.5.3",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1",
-    "vuex-persistedstate": "^2.5.4",
-    "vuex-router-sync": "^5.0.0"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
